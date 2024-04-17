@@ -24,4 +24,4 @@ Tarefa bônus - não obrigatória - apenas será um diferencial na sua entrega.
 * Ser eficiente e simples
 
 ## Entrega do desafio:
-Clone esse repositório e commite todas as modificações, depois que terminar, compacte o repositorio e nos envie, queremos analisar seus commits.
+Clone esse repositório e commite todas as modificações, depois que terminar, compacte o repositorio e nos envie, queremos analisar seus commits
