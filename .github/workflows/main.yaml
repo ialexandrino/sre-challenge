@@ -52,4 +52,4 @@ jobs:
 
     - name: Deploy java helm chart to EKS
       run: |
-        helm install java-char /home/runner/work/sre-challenge/sre-challenge/app/java-char --force
+        helm install java-ivan /home/runner/work/sre-challenge/sre-challenge/app/java-char --force
