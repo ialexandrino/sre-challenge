@@ -16,7 +16,11 @@ jobs:
           java-version: '11'
           distribution: 'temurin'
     - name: Build with Maven
-      run: mvn -X clean package  
+      run: |
+       pwd  # Debugging: Print current directory
+       cd /app
+       mvn -X clean package
+ 
 
     - name: Install kubectl
       uses: azure/setup-kubectl@v2.0
