@@ -17,8 +17,7 @@ jobs:
           distribution: 'temurin'
     - name: Build with Maven
       run: |
-       pwd  # Debugging: Print current directory
-       cd cd /home/runner/work/sre-challenge/sre-challenge/app
+       cd /home/runner/work/sre-challenge/sre-challenge/app
        mvn -X clean package
  
 
