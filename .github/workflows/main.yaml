@@ -48,7 +48,7 @@ jobs:
         docker push $REGISTRY/$REPOSITORY:$IMAGE_TAG
 
     - name: Update kube config
-      run: aws eks update-kubeconfig --name java-char
+      run: aws eks update-kubeconfig --name eks-cluster
 
     - name: Deploy java helm chart to EKS
       run: |
