@@ -8,7 +8,7 @@ image:
   repository: 066515263857.dkr.ecr.us-east-1.amazonaws.com/sre-challenge
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "lasted"
+  tag: "latest"
 
 imagePullSecrets: []
 nameOverride: ""
