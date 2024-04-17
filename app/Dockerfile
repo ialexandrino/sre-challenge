@@ -1,6 +1,6 @@
 FROM adoptopenjdk:11-jre-hotspot
 
-ARG JAR_FILE=target/*.jar
+ARG JAR_FILE=app/target/*.jar
 
 COPY ${JAR_FILE} app.jar
 
