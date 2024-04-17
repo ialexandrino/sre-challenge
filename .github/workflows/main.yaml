@@ -52,4 +52,4 @@ jobs:
 
     - name: Deploy java helm chart to EKS
       run: |
-        helm install java-char ./java-char
+        helm install java-char app/java-char
