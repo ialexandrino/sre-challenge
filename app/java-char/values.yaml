@@ -40,7 +40,7 @@ securityContext: {}
 # runAsUser: 1000
 
 service:
-  type: LoadBalanacer
+  type: LoadBalancer
   port: 80
   targetPort: 8080
   protocol: TCP
