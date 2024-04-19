@@ -54,3 +54,9 @@ jobs:
       run: |
         helm upgrade --install java-char /home/runner/work/sre-challenge/sre-challenge/app/java-char --force
       continue-on-error: true
+
+    - name: Send failure logs to CloudWatch
+      run: |
+        aws logs create-log-group --log-group-name github-sre-challenge
+        aws logs put-log-events --log-group-name github-sre-challenge --log-stream-name github-sre-challenge --log-events '[{"timestamp":'$(date +%s000)',"message":"Failed to deploy java helm chart to EKS"}]'
+      continue-on-error: true
